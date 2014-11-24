@@ -1,0 +1,2005 @@
+fileFormatVersion: 2
+guid: 87bd01e926f2e584c84f51f8ff5ee12a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character-sprite_0
+    21300002: character-sprite_1
+    21300004: character-sprite_2
+    21300006: character-sprite_3
+    21300008: character-sprite_4
+    21300010: character-sprite_5
+    21300012: character-sprite_6
+    21300014: character-sprite_7
+    21300016: character-sprite_8
+    21300018: character-sprite_9
+    21300020: character-sprite_10
+    21300022: character-sprite_11
+    21300024: character-sprite_12
+    21300026: character-sprite_13
+    21300028: character-sprite_14
+    21300030: character-sprite_15
+    21300032: character-sprite_16
+    21300034: character-sprite_17
+    21300036: character-sprite_18
+    21300038: character-sprite_19
+    21300040: character-sprite_20
+    21300042: character-sprite_21
+    21300044: character-sprite_22
+    21300046: character-sprite_23
+    21300048: character-sprite_24
+    21300050: character-sprite_25
+    21300052: character-sprite_26
+    21300054: character-sprite_27
+    21300056: character-sprite_28
+    21300058: character-sprite_29
+    21300060: character-sprite_30
+    21300062: character-sprite_31
+    21300064: character-sprite_32
+    21300066: character-sprite_33
+    21300068: character-sprite_34
+    21300070: character-sprite_35
+    21300072: character-sprite_36
+    21300074: character-sprite_37
+    21300076: character-sprite_38
+    21300078: character-sprite_39
+    21300080: character-sprite_40
+    21300082: character-sprite_41
+    21300084: character-sprite_42
+    21300086: character-sprite_43
+    21300088: character-sprite_44
+    21300090: character-sprite_45
+    21300092: character-sprite_46
+    21300094: character-sprite_47
+    21300096: character-sprite_48
+    21300098: character-sprite_49
+    21300100: character-sprite_50
+    21300102: character-sprite_51
+    21300104: character-sprite_52
+    21300106: character-sprite_53
+    21300108: character-sprite_54
+    21300110: character-sprite_55
+    21300112: character-sprite_56
+    21300114: character-sprite_57
+    21300116: character-sprite_58
+    21300118: character-sprite_59
+    21300120: character-sprite_60
+    21300122: character-sprite_61
+    21300124: character-sprite_62
+    21300126: character-sprite_63
+    21300128: character-sprite_64
+    21300130: character-sprite_65
+    21300132: character-sprite_66
+    21300134: character-sprite_67
+    21300136: character-sprite_68
+    21300138: character-sprite_69
+    21300140: character-sprite_70
+    21300142: character-sprite_71
+    21300144: character-sprite_72
+    21300146: character-sprite_73
+    21300148: character-sprite_74
+    21300150: character-sprite_75
+    21300152: character-sprite_76
+    21300154: character-sprite_77
+    21300156: character-sprite_78
+    21300158: character-sprite_79
+    21300160: character-sprite_80
+    21300162: character-sprite_81
+    21300164: character-sprite_82
+    21300166: character-sprite_83
+    21300168: character-sprite_84
+    21300170: character-sprite_85
+    21300172: character-sprite_86
+    21300174: character-sprite_87
+    21300176: character-sprite_88
+    21300178: character-sprite_89
+    21300180: character-sprite_90
+    21300182: character-sprite_91
+    21300184: character-sprite_92
+    21300186: character-sprite_93
+    21300188: character-sprite_94
+    21300190: character-sprite_95
+    21300192: character-sprite_96
+    21300194: character-sprite_97
+    21300196: character-sprite_98
+    21300198: character-sprite_99
+    21300200: character-sprite_100
+    21300202: character-sprite_101
+    21300204: character-sprite_102
+    21300206: character-sprite_103
+    21300208: character-sprite_104
+    21300210: character-sprite_105
+    21300212: character-sprite_106
+    21300214: character-sprite_107
+    21300216: character-sprite_108
+    21300218: character-sprite_109
+    21300220: character-sprite_110
+    21300222: character-sprite_111
+    21300224: character-sprite_112
+    21300226: character-sprite_113
+    21300228: character-sprite_114
+    21300230: character-sprite_115
+    21300232: character-sprite_116
+    21300234: character-sprite_117
+    21300236: character-sprite_118
+    21300238: character-sprite_119
+    21300240: character-sprite_120
+    21300242: character-sprite_121
+    21300244: character-sprite_122
+    21300246: character-sprite_123
+    21300248: character-sprite_124
+    21300250: character-sprite_125
+    21300252: character-sprite_126
+    21300254: character-sprite_127
+    21300256: character-sprite_128
+    21300258: character-sprite_129
+    21300260: character-sprite_130
+    21300262: character-sprite_131
+    21300264: character-sprite_132
+    21300266: character-sprite_133
+    21300268: character-sprite_134
+    21300270: character-sprite_135
+    21300272: character-sprite_136
+    21300274: character-sprite_137
+    21300276: character-sprite_138
+    21300278: character-sprite_139
+    21300280: character-sprite_140
+    21300282: character-sprite_141
+    21300284: character-sprite_142
+    21300286: character-sprite_143
+    21300288: character-sprite_144
+    21300290: character-sprite_145
+    21300292: character-sprite_146
+    21300294: character-sprite_147
+    21300296: character-sprite_148
+    21300298: character-sprite_149
+    21300300: character-sprite_150
+    21300302: character-sprite_151
+    21300304: character-sprite_152
+    21300306: character-sprite_153
+    21300308: character-sprite_154
+    21300310: character-sprite_155
+    21300312: character-sprite_156
+    21300314: character-sprite_157
+    21300316: character-sprite_158
+    21300318: character-sprite_159
+    21300320: character-sprite_160
+    21300322: character-sprite_161
+    21300324: character-sprite_162
+    21300326: character-sprite_163
+    21300328: character-sprite_164
+    21300330: character-sprite_165
+    21300332: character-sprite_166
+    21300334: character-sprite_167
+    21300336: character-sprite_168
+    21300338: character-sprite_169
+    21300340: character-sprite_170
+    21300342: character-sprite_171
+    21300344: character-sprite_172
+    21300346: character-sprite_173
+    21300348: character-sprite_174
+    21300350: character-sprite_175
+    21300352: character-sprite_176
+    21300354: character-sprite_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: character-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1280
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1280
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1280
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1280
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1280
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1280
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1280
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1217
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1217
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1217
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1153
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1153
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1153
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1153
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1153
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1089
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1089
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1089
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1089
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1089
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1089
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1024
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1023
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1023
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1023
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 961
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 961
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 961
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 897
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 897
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 898
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 898
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 898
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 898
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 898
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 898
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 833
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 833
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 833
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 833
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 833
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 833
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 768
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 767
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 768
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_67
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 767
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 705
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_72
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_73
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_75
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 705
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_77
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 641
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_80
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 640
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 640
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 640
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 640
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 577
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 578
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 578
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_91
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 577
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 577
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 513
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 513
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_98
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 513
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 513
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 513
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 513
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 448
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_104
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 448
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 448
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_106
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 448
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 448
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 385
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 384
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 385
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_114
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 321
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 320
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_116
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 321
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 257
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_124
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 255
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_125
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 255
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_126
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 255
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_127
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 255
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_128
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 255
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_129
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 255
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_130
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 255
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_131
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 255
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_132
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 255
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_133
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 192
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 192
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 192
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 192
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_138
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 192
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_139
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 192
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 192
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 192
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 192
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_143
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 192
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 192
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 192
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 129
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 128
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 129
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_154
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 129
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_159
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 65
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 65
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 65
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_170
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 65
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 65
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_173
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character-sprite_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
