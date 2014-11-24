@@ -3,6 +3,11 @@ using System.Collections;
 
 public class PlayerOnMapController : MonoBehaviour {
 
+	private Animator animator;
+	const int IDLE = 0;
+	const int WALK = 1;
+	const int JUMP = 2;
+
 	public float horizontalSpeed = 0.1f;
 	public float verticalSpeed = 0.1f;
 	public int playerDirection = -1;
@@ -11,54 +16,63 @@ public class PlayerOnMapController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Started");
+		animator = this.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.RightArrow)) {
-			Debug.Log("Pressed Right Arrow");
 			MoveRight();	
 		}
 		if (Input.GetKey (KeyCode.LeftArrow)) {
-			Debug.Log("Pressed Left Arrow");
 			MoveLeft();	
 		}
 		if (Input.GetKey (KeyCode.UpArrow)) {
-			Debug.Log ("Pressed Up Arrow");
 			MoveUp();
 		}
 		if (Input.GetKey (KeyCode.DownArrow)) {
-			Debug.Log("Pressed Down Arrow");
 			MoveDown();
 		}
 	}
 
+	void OnTriggerEnter2D (Collider2D col){
+		Debug.Log ("Trigger detected");
+		if (col.tag == "GrasslandDoor") {
+			Debug.Log("Enter grassland");
+			Application.LoadLevel("Grassland");
+		}
+		if (col.tag == "CaveDoor") {
+			Debug.Log("Enter cave");
+			Application.LoadLevel("Cave");
+		}
+	}
+
 	void MoveRight(){
-		Debug.Log ("Moving Right");
+		animator.SetInteger ("AnimationToPlay", WALK);
+
 		Vector3 position = transform.position;
 		position.x = position.x + horizontalSpeed;
 		transform.position = position;
-		Debug.Log ("Moved Right");
 	}
 	void MoveLeft(){
-		Debug.Log ("Moving Left");
+		animator.SetInteger ("AnimationToPlay", WALK);
+
 		Vector3 position = transform.position;
 		position.x = position.x - horizontalSpeed;
 		transform.position = position;
-		Debug.Log ("Moved Left");
 	}
 	void MoveUp(){
-		Debug.Log ("Moving Up");
+		animator.SetInteger ("AnimationToPlay", WALK);
+
 		Vector3 position = transform.position;
 		position.y = position.y + verticalSpeed;
 		transform.position = position;
-		Debug.Log ("Moved Up");
 	}
 	void MoveDown(){
-		Debug.Log ("Moving Down");
+		animator.SetInteger ("AnimationToPlay", WALK);
+
 		Vector3 position = transform.position;
 		position.y = position.y - verticalSpeed;
 		transform.position = position;
-		Debug.Log ("Moved Down");
 	}
 }
