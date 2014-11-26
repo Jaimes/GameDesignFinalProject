@@ -5,8 +5,10 @@ public class PlayerOnMapController : MonoBehaviour {
 
 	private Animator animator;
 	const int IDLE = 0;
-	const int WALK = 1;
-	const int JUMP = 2;
+	const int UP = 1;
+	const int RIGHT = 2;
+	const int DOWN = 3;
+	const int LEFT = 4;
 
 	public float horizontalSpeed = 0.1f;
 	public float verticalSpeed = 0.1f;
@@ -48,28 +50,28 @@ public class PlayerOnMapController : MonoBehaviour {
 	}
 
 	void MoveRight(){
-		animator.SetInteger ("AnimationToPlay", WALK);
+		animator.SetInteger ("AnimationToPlay", RIGHT);
 
 		Vector3 position = transform.position;
 		position.x = position.x + horizontalSpeed;
 		transform.position = position;
 	}
 	void MoveLeft(){
-		animator.SetInteger ("AnimationToPlay", WALK);
+		animator.SetInteger ("AnimationToPlay", LEFT);
 
 		Vector3 position = transform.position;
 		position.x = position.x - horizontalSpeed;
 		transform.position = position;
 	}
 	void MoveUp(){
-		animator.SetInteger ("AnimationToPlay", WALK);
+		animator.SetInteger ("AnimationToPlay", UP);
 
 		Vector3 position = transform.position;
 		position.y = position.y + verticalSpeed;
 		transform.position = position;
 	}
 	void MoveDown(){
-		animator.SetInteger ("AnimationToPlay", WALK);
+		animator.SetInteger ("AnimationToPlay", DOWN);
 
 		Vector3 position = transform.position;
 		position.y = position.y - verticalSpeed;

@@ -3,6 +3,9 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+	GameObject go;
+	GameController gc;
+
 	private Animator animator;
 	const int IDLE = 0;
 	const int WALK = 1;
@@ -16,7 +19,9 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Started");
-		animator = this.GetComponent<Animator>();
+		animator = this.GetComponent<Animator> ();
+		go = GameObject.Find ("GameController");
+		gc = go.GetComponent<GameController> ();
 	}
 	
 	// Update is called once per frame
@@ -25,20 +30,25 @@ public class PlayerController : MonoBehaviour {
 			Idle();
 		}
 		if (Input.anyKey == false) {
-			Debug.Log("Idle");
 			Idle ();	
 		}
 		if (Input.GetKey (KeyCode.RightArrow)) {
-			Debug.Log("Pressed Right Arrow");
+			//Debug.Log("Pressed Right Arrow");
 			MoveRight();	
 		}
 		if (Input.GetKey (KeyCode.LeftArrow)) {
-			Debug.Log("Pressed Left Arrow");
+			//Debug.Log("Pressed Left Arrow");
 			MoveLeft();	
 		}
 		if (Input.GetKeyDown (KeyCode.UpArrow) || Input.GetKeyDown (KeyCode.Space) ) {
-			Debug.Log("Pressed Jump Button");
+			//Debug.Log("Pressed Jump Button");
 			Jump();
+		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.gameObject.tag == "Enemy") {
+			gc.SubtractLife();
 		}
 	}
 
@@ -48,19 +58,33 @@ public class PlayerController : MonoBehaviour {
 			//Application.LoadLevel(Application.loadedLevel);
 			if (Application.loadedLevelName.Equals("Grassland")){
 				Debug.Log ("Touched door in Grassland");
+				Application.LoadLevel("Main");
 			}
 			if (Application.loadedLevelName.Equals("Cave")){
 				Debug.Log("Touched door in Cave");
+				Application.LoadLevel("Main");
 			}
 		}
 		if (col.tag == "Finish") {
-			//Application.LoadLevel(Application.loadedLevel);
 			Debug.Log ("Touched finish");	
-			//Application.LoadLevel(Application.loadedLevel + 1);
+			if (gc.HasKey()){
+				Application.LoadLevel ("EndScreen");
+			}
 		}
 		if (col.tag == "Key") {
+			Debug.Log("Key");
 			Destroy(col.gameObject);
-			// tell GameController player has collected key
+			gc.ItemCollected(col.gameObject.tag.ToString());
+		}
+		if (col.tag == "Star" || col.tag == "Heart") {
+			Debug.Log(gc.GetNumLives().ToString());
+			Debug.Log("Star or Heart " + col.tag);
+			gc.ItemCollected(col.gameObject.tag.ToString());
+			Destroy(col.gameObject);
+		}
+		if (col.tag == "Water" || col.tag == "Lava") {
+			gc.SubtractLife();
+			Application.LoadLevel("Main");
 		}
 	}
 
@@ -68,10 +92,7 @@ public class PlayerController : MonoBehaviour {
 		animator.SetInteger ("AnimationToPlay", IDLE);
 	}
 	void MoveRight(){
-		Debug.Log ("Moving Right");
-
 		if (playerDirection == -1){
-			Debug.Log("Changed direction");
 			playerDirection *= -1;
 			scale = transform.localScale;
 			scale.x *= -1;
@@ -81,13 +102,9 @@ public class PlayerController : MonoBehaviour {
 		Vector3 position = transform.position;
 		position.x = position.x + horizontalSpeed;
 		transform.position = position;
-		Debug.Log ("Moved Right");
 	}
 	void MoveLeft(){
-		Debug.Log ("Moving Left");
-
 		if (playerDirection == 1){
-			Debug.Log("Changed direction");
 			playerDirection *= -1;
 			scale = transform.localScale;
 			scale.x *= -1;
@@ -98,20 +115,17 @@ public class PlayerController : MonoBehaviour {
 			Vector3 position = transform.position;
 			position.x = position.x - horizontalSpeed * 0.5f;
 			transform.position = position;
-			Debug.Log ("Moved Left");
 		}
 		else {
 			Vector3 position = transform.position;
 			position.x = position.x - horizontalSpeed;
 			transform.position = position;
-			Debug.Log ("Moved Left");
 		}
 	}
 	void Jump(){
 		if (Mathf.Abs(transform.rigidbody2D.velocity.y) < 0.1f) {
 			animator.SetInteger("AnimationToPlay", JUMP);
 			transform.rigidbody2D.AddForce (Vector3.up * verticalSpeed);
-			Debug.Log ("Jumped");
 		}
 	}
 }
