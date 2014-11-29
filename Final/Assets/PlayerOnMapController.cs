@@ -10,6 +10,9 @@ public class PlayerOnMapController : MonoBehaviour {
 	const int DOWN = 3;
 	const int LEFT = 4;
 
+	GameObject go;
+	GameController gc;
+
 	public float horizontalSpeed = 0.1f;
 	public float verticalSpeed = 0.1f;
 	public int playerDirection = -1;
@@ -19,6 +22,18 @@ public class PlayerOnMapController : MonoBehaviour {
 	void Start () {
 		Debug.Log ("Started");
 		animator = this.GetComponent<Animator>();
+
+		go = GameObject.Find ("GameController");
+		gc = go.GetComponent<GameController> ();
+
+		if (gc.prevLevel == "Grassland") {
+			Vector3 position = new Vector3(5.691547f, 2.372675f, 0f);
+			transform.position = position;
+		}
+		else if (gc.prevLevel == "Cave"){
+			Vector3 position = new Vector3(-6.376614f, -6.736524f, 0f);
+			transform.position = position;
+		}
 	}
 	
 	// Update is called once per frame
@@ -46,6 +61,9 @@ public class PlayerOnMapController : MonoBehaviour {
 		if (col.tag == "CaveDoor") {
 			Debug.Log("Enter cave");
 			Application.LoadLevel("Cave");
+		}
+		if (col.tag == "Home") {
+			gc.lives = 3;	
 		}
 	}
 

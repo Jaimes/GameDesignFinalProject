@@ -48,13 +48,19 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Enemy") {
-			gc.SubtractLife();
+			if (gc.lives > 1){
+				gc.SubtractLife();
+			}
+			else {
+				gc.lives = 3;
+				Application.LoadLevel("Main");
+			}
 		}
 	}
 
 	void OnTriggerEnter2D (Collider2D col){
-		Debug.Log ("Collision detected");
 		if (col.tag == "Door") {
+			gc.prevLevel = Application.loadedLevelName;
 			//Application.LoadLevel(Application.loadedLevel);
 			if (Application.loadedLevelName.Equals("Grassland")){
 				Debug.Log ("Touched door in Grassland");
@@ -84,7 +90,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (col.tag == "Water" || col.tag == "Lava") {
 			gc.SubtractLife();
-			Application.LoadLevel("Main");
+			Application.LoadLevel(Application.loadedLevelName);
 		}
 	}
 

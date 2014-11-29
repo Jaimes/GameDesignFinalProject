@@ -3,9 +3,10 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
-	public float lives = 3.0f;
+	public int lives = 3;
 	public bool isInvincible = false;
 	public bool hasKey = false;
+	public string prevLevel;
 
 	public void Awake(){
 		DontDestroyOnLoad (gameObject);
@@ -37,9 +38,6 @@ public class GameController : MonoBehaviour {
 	public void AddLife(){
 		if (lives <= 2) {
 			lives++;	
-		}
-		else if (lives == 2.5) {
-			lives += 0.5f;
 		}
 	}
 	public void SubtractLife(){
