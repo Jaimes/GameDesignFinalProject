@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour {
 	public bool isInvincible = false;
 	public bool hasKey = false;
 	public string prevLevel;
+	public GUIText livesText;
 
 	public void Awake(){
 		DontDestroyOnLoad (gameObject);
@@ -14,7 +15,22 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
+	}
+
+	void OnLevelWasLoaded(){
+		if (GameObject.Find ("LivesText") != null) {
+			livesText = GameObject.Find ("LivesText").guiText;
+		}
+		else {
+			livesText = GameObject.Find ("Title").guiText;
+		}
+	}
+
+	void OnGUI(){
+		if (Application.loadedLevelName != "StartScreen" && Application.loadedLevelName != "EndScreen"){
+		//	livesText.text = lives;
+		}
 	}
 	
 	// Update is called once per frame

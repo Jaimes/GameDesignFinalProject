@@ -50,6 +50,9 @@ public class PlayerOnMapController : MonoBehaviour {
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			MoveDown();
 		}
+		if (!Input.anyKey) {
+			animator.SetInteger("AnimationToPlay", IDLE);		
+		}
 	}
 
 	void OnTriggerEnter2D (Collider2D col){
