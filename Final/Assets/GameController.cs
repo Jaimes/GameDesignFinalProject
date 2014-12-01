@@ -22,18 +22,18 @@ public class GameController : MonoBehaviour {
 
 	}
 
-	public void ItemCollected(string item){
-		Debug.Log (item);
-		if (item.Equals ("Heart")) {
-			AddLife();
-		}
-		if (item.Equals ("Star")) {
-			Invincibility();
-		}
-		if (item.Equals ("Key")) {
-			hasKey = true;	
-		}
-	}
+	//public void ItemCollected(string item){
+	//	Debug.Log (item);
+	//	if (item.Equals ("Heart")) {
+	//		AddLife();
+	//	}
+	//	if (item.Equals ("Star")) {
+	//		Invincibility();
+	//	}
+	//	if (item.Equals ("Key")) {
+	//		hasKey = true;	
+	//	}
+	//}
 
 	public void AddLife(){
 		if (lives <= 2) {
@@ -60,7 +60,7 @@ public class GameController : MonoBehaviour {
 		Application.LoadLevel ("EndScreen");
 	}
 
-	void Invincibility(){
+	public void Invincibility(){
 		// add glow or some visual effect (brightness/contrast)
 		// use timer to determine when to switch back to normal
 		// disable reaction to enemies in character controller

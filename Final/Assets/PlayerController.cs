@@ -80,17 +80,26 @@ public class PlayerController : MonoBehaviour {
 		if (col.tag == "Key") {
 			Debug.Log("Key");
 			Destroy(col.gameObject);
-			gc.ItemCollected(col.gameObject.tag.ToString());
+			gc.hasKey = true;
 		}
-		if (col.tag == "Star" || col.tag == "Heart") {
+		if (col.tag == "Heart") {
+			Debug.Log(gc.GetNumLives());
+			gc.AddLife();
+			Destroy(col.gameObject);
+		}
+		if (col.tag == "Star") {
 			Debug.Log(gc.GetNumLives().ToString());
-			Debug.Log("Star or Heart " + col.tag);
-			gc.ItemCollected(col.gameObject.tag.ToString());
+			gc.Invincibility();
 			Destroy(col.gameObject);
 		}
 		if (col.tag == "Water" || col.tag == "Lava") {
-			gc.SubtractLife();
-			Application.LoadLevel(Application.loadedLevelName);
+			if (gc.lives >= 2){
+				gc.SubtractLife();
+				Application.LoadLevel(Application.loadedLevelName);
+			}
+			else {
+				Application.LoadLevel ("Main");
+			}
 		}
 	}
 
