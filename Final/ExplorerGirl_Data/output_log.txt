@@ -1,0 +1,242 @@
+Initialize engine version: 4.5.2f1 (9abb1b59b47c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     32 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Amy\Documents\GitHub\GameDesignFinalProject\Final\ExplorerGirl_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Amy\Documents\GitHub\GameDesignFinalProject\Final\ExplorerGirl_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Amy\Documents\GitHub\GameDesignFinalProject\Final\ExplorerGirl_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Amy\Documents\GitHub\GameDesignFinalProject\Final\ExplorerGirl_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.079 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+UnloadTime: 0.396275 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2930.
+Total: 1.342203 ms (FindLiveObjects: 0.146536 ms CreateObjectMapping: 0.028509 ms MarkObjects: 0.226931 ms  DeleteObjects: 0.070132 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Trigger detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Trigger detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Enter grassland
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 6.432201 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 730.
+Total: 2.614275 ms (FindLiveObjects: 0.095220 ms CreateObjectMapping: 0.071842 ms MarkObjects: 0.235484 ms  DeleteObjects: 0.387152 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+hit grass edge
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+hit grass edge
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Collision detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Key
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Touched door in Grassland
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.170675 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 3.628055 ms (FindLiveObjects: 0.314739 ms CreateObjectMapping: 0.058728 ms MarkObjects: 0.530267 ms  DeleteObjects: 0.280528 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Trigger detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Enter cave
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 6.256015 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 1190.
+Total: 2.718048 ms (FindLiveObjects: 0.145395 ms CreateObjectMapping: 0.058158 ms MarkObjects: 0.258291 ms  DeleteObjects: 0.384871 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.966076 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1190.
+Total: 2.350282 ms (FindLiveObjects: 0.133992 ms CreateObjectMapping: 0.057588 ms MarkObjects: 0.313028 ms  DeleteObjects: 0.012543 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Touched door in Cave
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.059586 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2928.
+Total: 1.884445 ms (FindLiveObjects: 0.193291 ms CreateObjectMapping: 0.045614 ms MarkObjects: 0.341537 ms  DeleteObjects: 0.136273 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Trigger detected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Enter cave
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 6.204699 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 1191.
+Total: 2.953532 ms (FindLiveObjects: 0.141404 ms CreateObjectMapping: 0.072412 ms MarkObjects: 0.269695 ms  DeleteObjects: 0.375178 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.043621 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1190.
+Total: 2.349711 ms (FindLiveObjects: 0.131711 ms CreateObjectMapping: 0.068421 ms MarkObjects: 0.266844 ms  DeleteObjects: 0.012543 ms)
+
+Started
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Touched finish
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.024805 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 95.
+Total: 2.422694 ms (FindLiveObjects: 0.025087 ms CreateObjectMapping: 0.066711 ms MarkObjects: 0.156799 ms  DeleteObjects: 0.266844 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.608952 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 105.
+Total: 2.125631 ms (FindLiveObjects: 0.018815 ms CreateObjectMapping: 0.074693 ms MarkObjects: 0.152238 ms  DeleteObjects: 0.007412 ms)
+

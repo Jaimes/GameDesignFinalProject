@@ -1,13 +1,13 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
 
-	public int lives = 3;
 	public bool isInvincible = false;
 	public bool hasKey = false;
 	public string prevLevel;
-	public GUIText livesText;
+	public GUIText helpText;
 
 	public void Awake(){
 		DontDestroyOnLoad (gameObject);
@@ -15,58 +15,30 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		helpText.gameObject.SetActive (false);
 	}
 
 	void OnLevelWasLoaded(){
-		if (GameObject.Find ("LivesText") != null) {
-			livesText = GameObject.Find ("LivesText").guiText;
+		string currentLevelName = Application.loadedLevelName;
+		if (currentLevelName == "Main") {
+			StartCoroutine(ShowMessage("Find the key and unlock the door"));
 		}
-		else {
-			livesText = GameObject.Find ("Title").guiText;
+		else if (currentLevelName != "StartScreen" && currentLevelName != "EndScreen") {
+			StartCoroutine(ShowMessage(currentLevelName));
 		}
+
 	}
 
-	void OnGUI(){
-		if (Application.loadedLevelName != "StartScreen" && Application.loadedLevelName != "EndScreen"){
-		//	livesText.text = lives;
-		}
+	IEnumerator ShowMessage(string message){
+		helpText.text = message;
+		helpText.gameObject.SetActive(true);
+		yield return new WaitForSeconds (2.0f);
+		helpText.gameObject.SetActive (false);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-	}
-
-	//public void ItemCollected(string item){
-	//	Debug.Log (item);
-	//	if (item.Equals ("Heart")) {
-	//		AddLife();
-	//	}
-	//	if (item.Equals ("Star")) {
-	//		Invincibility();
-	//	}
-	//	if (item.Equals ("Key")) {
-	//		hasKey = true;	
-	//	}
-	//}
-
-	public void AddLife(){
-		if (lives <= 2) {
-			lives++;	
-		}
-	}
-	public void SubtractLife(){
-		if (lives > 1) {
-			lives--;	
-		}
-		else {
-			lives = 0;
-			Application.LoadLevel ("EndScreen");
-		}
-	}
-	public float GetNumLives(){
-		return this.lives;
 	}
 
 	public bool HasKey(){

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SnailControllerScript : MonoBehaviour {
 
-	public float horizontalVelocity = 0.1f;
+	public float horizontalVelocity = 0.08f;
 	public int direction = -1;
 
 	// Use this for initialization

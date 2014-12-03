@@ -65,8 +65,8 @@ public class PlayerOnMapController : MonoBehaviour {
 			Debug.Log("Enter cave");
 			Application.LoadLevel("Cave");
 		}
-		if (col.tag == "Home") {
-			gc.lives = 3;	
+		if (col.tag == "Enemy") {
+			Application.LoadLevel("Main");
 		}
 	}
 

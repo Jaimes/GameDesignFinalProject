@@ -13,17 +13,15 @@ public class KeyIndicatorScript : MonoBehaviour {
 	void Start () {
 		go = GameObject.Find ("GameController");
 		gc = go.GetComponent<GameController> ();
-
+	}
+	
+	// Update is called once per frame
+	void Update () {
 		if (gc.hasKey) {
 			this.guiTexture.texture = keyFilled;	
 		}
 		else {
 			this.guiTexture.texture = keyOutline;	
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

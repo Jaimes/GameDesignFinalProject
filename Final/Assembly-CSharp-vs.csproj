@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\GhostControllerScript.cs" />
+     <Compile Include="Assets\HelpTextScript.cs" />
      <Compile Include="Assets\KeyIndicatorScript.cs" />
-     <Compile Include="Assets\LivesScript.cs" />
      <Compile Include="Assets\MenuControllerScript.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\PlayerOnMapController.cs" />

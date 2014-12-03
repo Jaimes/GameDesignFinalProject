@@ -12,14 +12,16 @@ public class PlayerController : MonoBehaviour {
 	const int JUMP = 2;
 
 	public float horizontalSpeed = 0.1f;
-	public float verticalSpeed = 200.0f;
+	public float verticalSpeed = 210.0f;
 	public int playerDirection = -1;
 	Vector3 scale;
+	public bool isInvincible;
 
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Started");
 		animator = this.GetComponent<Animator> ();
+		animator.SetInteger ("AnimationToPlay", IDLE);
 		go = GameObject.Find ("GameController");
 		gc = go.GetComponent<GameController> ();
 	}
@@ -48,12 +50,11 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Enemy") {
-			if (gc.lives > 1){
-				gc.SubtractLife();
+			if (isInvincible){
+				Destroy(col.gameObject);
 			}
 			else {
-				gc.lives = 3;
-				Application.LoadLevel("Main");
+				Application.LoadLevel(Application.loadedLevelName);
 			}
 		}
 	}
@@ -74,6 +75,7 @@ public class PlayerController : MonoBehaviour {
 		if (col.tag == "Finish") {
 			Debug.Log ("Touched finish");	
 			if (gc.HasKey()){
+				gc.hasKey = false;
 				Application.LoadLevel ("EndScreen");
 			}
 		}
@@ -82,25 +84,23 @@ public class PlayerController : MonoBehaviour {
 			Destroy(col.gameObject);
 			gc.hasKey = true;
 		}
-		if (col.tag == "Heart") {
-			Debug.Log(gc.GetNumLives());
-			gc.AddLife();
-			Destroy(col.gameObject);
-		}
 		if (col.tag == "Star") {
-			Debug.Log(gc.GetNumLives().ToString());
+			StartCoroutine(ShowInvincible());
 			gc.Invincibility();
 			Destroy(col.gameObject);
 		}
 		if (col.tag == "Water" || col.tag == "Lava") {
-			if (gc.lives >= 2){
-				gc.SubtractLife();
-				Application.LoadLevel(Application.loadedLevelName);
-			}
-			else {
-				Application.LoadLevel ("Main");
-			}
+			Application.LoadLevel(Application.loadedLevelName);
 		}
+	}
+
+	IEnumerator ShowInvincible(){
+		Color normalColor = renderer.material.color;
+		isInvincible = true;
+		renderer.material.color = new Color (255, 255, 255, 90);
+		yield return new WaitForSeconds (5.0f);
+		isInvincible = false;
+		renderer.material.color = normalColor;
 	}
 
 	void Idle(){

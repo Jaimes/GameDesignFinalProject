@@ -1,13 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerOnMapController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemySpawner.cs">
     <Files>
-      <File FileName="Assets\PlayerOnMapController.cs" Line="54" Column="49" />
-      <File FileName="Assets\PlayerController.cs" Line="23" Column="3" />
-      <File FileName="Assets\GameController.cs" Line="30" Column="5" />
-      <File FileName="Assets\SnailControllerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\KeyIndicatorScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\LivesScript.cs" Line="13" Column="31" />
+      <File FileName="Assets\EnemySpawner.cs" Line="18" Column="36" />
+      <File FileName="Assets\GameController.cs" Line="24" Column="36" />
+      <File FileName="Assets\PlayerController.cs" Line="24" Column="49" />
+      <File FileName="Assets\PlayerOnMapController.cs" Line="69" Column="34" />
+      <File FileName="Assets\KeyIndicatorScript.cs" Line="20" Column="19" />
+      <File FileName="Assets\HelpTextScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\GhostControllerScript.cs" Line="16" Column="36" />
+      <File FileName="Assets\SnailControllerScript.cs" Line="6" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
