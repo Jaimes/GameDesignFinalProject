@@ -29,10 +29,12 @@ public class PlayerOnMapController : MonoBehaviour {
 		if (gc.prevLevel == "Grassland") {
 			Vector3 position = new Vector3(5.691547f, 2.372675f, 0f);
 			transform.position = position;
+			gc.prevLevel = "";
 		}
 		else if (gc.prevLevel == "Cave"){
 			Vector3 position = new Vector3(-6.376614f, -6.736524f, 0f);
 			transform.position = position;
+			gc.prevLevel = "";
 		}
 	}
 	
